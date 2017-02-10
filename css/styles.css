@@ -58,6 +58,10 @@ h2 {
   cursor: pointer;
 }
 
+.drop-buttons button:focus {
+  outline: transparent;
+}
+
 .turn-player-1 button {
   border-color: #7efa03;
 }
