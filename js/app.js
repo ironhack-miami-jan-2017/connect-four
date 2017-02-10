@@ -9,6 +9,48 @@ $(document).ready(function () {
 
   renderBoard();
   updateCurrentPlayer();
+
+  $('#drop0').click(function () {
+    myGlobalConnectGame.playChecker(0);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop1').click(function () {
+    myGlobalConnectGame.playChecker(1);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop2').click(function () {
+    myGlobalConnectGame.playChecker(2);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop3').click(function () {
+    myGlobalConnectGame.playChecker(3);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop4').click(function () {
+    myGlobalConnectGame.playChecker(4);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop5').click(function () {
+    myGlobalConnectGame.playChecker(5);
+    renderBoard();
+    updateCurrentPlayer();
+  });
+
+  $('#drop6').click(function () {
+    myGlobalConnectGame.playChecker(6);
+    renderBoard();
+    updateCurrentPlayer();
+  });
 });
 
 
