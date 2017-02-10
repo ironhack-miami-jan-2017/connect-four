@@ -20,7 +20,3 @@ function ConnectFour (player1Name, player2Name) {
     this.currentPlayer = this.player2;
   }
 }
-
-
-var newConnectGame = new ConnectFour('Nizar', 'Javier');
-console.log(newConnectGame);
