@@ -17,13 +17,20 @@ function updateCurrentPlayer () {
     $('#current-player').html(myGlobalConnectGame.player1 + "'s Turn");
     $('#current-player').addClass('player-1');
     $('#current-player').removeClass('player-2');
+
+    $('#drop-buttons').addClass('turn-player-1');
+    $('#drop-buttons').removeClass('turn-player-2');
   } else {
     $('#current-player').html(myGlobalConnectGame.player2 + "'s Turn");
     $('#current-player').addClass('player-2');
     $('#current-player').removeClass('player-1');
+
+    $('#drop-buttons').addClass('turn-player-2');
+    $('#drop-buttons').removeClass('turn-player-1');
   }
 
   $('#current-player').css('visibility', 'visible');
+  $('#drop-buttons').css('visibility', 'visible');
 }
 
 

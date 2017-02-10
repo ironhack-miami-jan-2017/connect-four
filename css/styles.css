@@ -1,6 +1,6 @@
 body {
   background-color: indigo;
-  color: white;
+  color: #fff;
 }
 
 .container {
@@ -26,10 +26,53 @@ h2 {
 }
 
 .player-1 {
-  color: #7EFA03;
+  color: #7efa03;
 }
 
 .player-2 {
+  color: #f85487;
+}
+
+.drop-buttons {
+  /* will be shown with JS */
+  visibility: hidden;
+
+  margin: 10px 0;
+  overflow: auto;
+}
+
+.button-wrapper {
+  float: left;
+  text-align: center;
+  width: 110px;
+  box-sizing: border-box;
+}
+
+.drop-buttons button {
+  background-color: transparent;
+  border: 3px dotted;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.turn-player-1 button {
+  border-color: #7efa03;
+}
+
+.turn-player-1 button:hover {
+  background-color: #7efa03;
+  color: #7efa03;
+}
+
+.turn-player-2 button {
+  border-color: #f85487;
+}
+
+.turn-player-2 button:hover {
+  background-color: #f85487;
   color: #f85487;
 }
 
@@ -50,8 +93,8 @@ h2 {
 }
 
 .checker-player-1 {
-  border-color: #7EFA03;
-  background-color: #7EFA03;
+  border-color: #7efa03;
+  background-color: #7efa03;
 }
 
 .checker-player-2 {
